@@ -9,8 +9,24 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-size: 58px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8;
+}
+
 .container {
   border: 3px solid black;
+  border-radius: 6px;
   margin: 20px 20px;
   padding: 10px 15px;
 }
@@ -19,4 +35,20 @@ h2 {
   display: block;
   margin: 10px auto;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 20px;
+  color: whitesmoke;
+  background: black;
+  border-radius: 5px;
+  padding: 18px;
+  margin: 15px 20px;
+  text-decoration: none;
 }
