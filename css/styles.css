@@ -3,3 +3,14 @@ body {
   margin: 0;
   background: #e1c16e;
 }
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+  border: 3px solid black;
+  margin: 20px 20px;
+  padding: 10px 15px;
+}
